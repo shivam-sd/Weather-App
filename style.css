@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+body{
+    background-color: #19C3FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    flex-direction: column;
+    gap: 50px;
+    /* color: aliceblue; */
+}
+.title{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    
+    /* color: linear-gradient(to right, red, transparent); */
+    
+}
+.title1{
+    text-transform: capitalize;
+    font-size: 30px; 
+    background: linear-gradient(to right, white, transparent);
+    border-radius: 10px;
+}
+h6{
+    font-size:10px;
+    /* animation-name: move; */
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+}
+@keyframes move{
+    0%{
+        margin-left: 40px;
+    }
+    25%{
+        margin-bottom: 40px;
+    }
+    50%{
+        margin-right: 40px;
+    }
+    100%{
+        margin-top: 40px;
+    }
+}
+h6:active{
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+}
+.container{
+    border: 1px solid black;
+    width: 320px;
+    /* height:600px; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 8px;
+}
+#input{
+    width: 280px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0.3px 0.3px 0.8px 1px black;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    
+}
+.store-date{
+    /* border: 1px solid black; */
+    
+    padding: 5px;
+}
+.date{
+    /* border: 1px solid white; */
+    border-bottom:  1px solid black;
+    text-align: center;
+}
+.country{
+    /* border: 1px solid red; */
+    border-bottom:  1px solid black;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.cont{
+/* border: 1px solid black; */
+border-bottom:  1px solid black;
+margin-left: 8px;
+text-align: center;
+font-size: 30px;
+}
+.name-reg1{
+    /* border: 1px solid black; */
+    border-bottom:  1px solid black;
+margin-left: 8px;
+margin-top: 10px;
+font-size: 25px;
+text-align: center;
+}
+.icon{
+    /* border: 1px solid black; */
+    border-bottom:  1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+#icon{
+    width: 120px;
+    /* border: 1px solid black ; */
+}
+.temp-fah{
+    border-bottom:  1px solid black;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.temp{
+    font-size: 30px;
+    border-bottom:  1px solid black;
+}
+.fahren{
+    font-size: 30px;
+}
